@@ -1,0 +1,13 @@
+{application, bert,
+ [
+  {description, "BERT Encoder/Decoder"},
+  {author, "Tom Preston-Werner"},
+  {vsn, "1"},
+  {modules, [bert]},
+  {registered, []},
+  {applications, [
+		  kernel,
+		  stdlib
+                 ]},
+  {env, []}
+ ]}.
